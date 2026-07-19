@@ -120,7 +120,7 @@ const Header = () => {
                 className={`container headerSection mx-auto flex items-center justify-between rounded-3xl px-4 py-3 transition-colors duration-300 md:rounded-full ${
                     isScrolled
                         ? 'border border-white/30 bg-white/20 shadow-lg backdrop-blur-xl'
-                        : 'bg-gray-200'
+                        : 'border border-white/30 bg-white/20 shadow-lg backdrop-blur-xl'
                 }`}
             >
                 <Link href="/" className="relative z-10" onClick={closeMobileMenu}>
