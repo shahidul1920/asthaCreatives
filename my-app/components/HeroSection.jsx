@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import SubHeading from '@/components/SubHeading'
+import Button from '@/components/Button'
 
 const headingWords = 'Creatives. Designs. Marketing. Data. Scale Your Business'.split(' ')
 
@@ -65,6 +66,11 @@ const HeroSection = () => {
                         clients to understand their needs and goals, and we develop
                         customized solutions that deliver results.
                     </p>
+                    <div className="mt-6">
+                        <Button>
+                            Get Started
+                        </Button>
+                    </div>
                 </div>
             </div>
         </div>

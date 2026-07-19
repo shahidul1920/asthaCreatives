@@ -6,10 +6,12 @@ import Image from 'next/image'
 import gsap from 'gsap'
 
 const servicesLinks = [
+    { name: 'Creative Design', href: '/services/creative-design' },
     { name: 'Social Media Management', href: '/services/social-media-management' },
     { name: 'AI Video Creation', href: '/services/ai-video-creation' },
+    { name: 'Video Editing', href: '/services/video-editing' },
     { name: 'Website Development', href: '/services/website-development' },
-    { name: 'Data Analysis', href: '/services/data-analysis' },
+    { name: 'Data Analytics', href: '/services/data-analytics' },
 ]
 
 const Header = () => {

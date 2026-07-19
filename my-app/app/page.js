@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <div className="font-poppins">
       <HomePage />
-      <Button>Click Me</Button>
     </div>
   );
 }
