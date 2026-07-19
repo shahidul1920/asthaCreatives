@@ -150,7 +150,7 @@ const Header = () => {
                             >
                                 <button
                                     type="button"
-                                    className="flex items-center gap-1"
+                                    className="flex items-center justify-center gap-1"
                                     onClick={() => setIsServicesOpen((prev) => !prev)}
                                     aria-expanded={isServicesOpen}
                                 >

@@ -2,16 +2,19 @@
 
 :root {
   --brand-color: #0F111D;
+  --mid-pure: #EBF2F9;
 }
 
 @theme inline {
   --color-brand: var(--brand-color);
+  --color-mpure: var(--mid-pure);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    
     --brand-color: #0F111D;
     --foreground: #FFFFFF;
   }
