@@ -74,7 +74,7 @@ const Portfolio = () => {
                         <Link
                             key={item.id}
                             href={item.link}
-                            className="group relative block aspect-[4/3] overflow-hidden rounded-xl shadow-lg"
+                            className="group relative block aspect-[4/3] overflow-hidden rounded-xl shadow-lg border-6 border-white"
                         >
                             <Image
                                 className="object-cover transition-transform duration-500 group-hover:scale-105"
