@@ -1,3 +1,4 @@
+import Customers from '@/components/Customers'
 import DemoScreen from '@/components/DemoScreen'
 import HeroSection from '@/components/HeroSection'
 import Portfolio from '@/components/Portfolio'
@@ -10,6 +11,8 @@ const HomePage = () => {
         <HeroSection />
         <ServicesSection />
         <Portfolio />
+        <Customers />
+
         {/* <DemoScreen /> */}
     </div>
   )
