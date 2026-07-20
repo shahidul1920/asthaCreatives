@@ -88,7 +88,7 @@ export default function ContactUs() {
                                             type="text" 
                                             required
                                             className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-transparent transition-all"
-                                            placeholder="John Doe"
+                                            placeholder="Your Name"
                                         />
                                     </div>
                                     <div className="space-y-2">
@@ -97,7 +97,7 @@ export default function ContactUs() {
                                             type="email" 
                                             required
                                             className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-transparent transition-all"
-                                            placeholder="john@example.com"
+                                            placeholder="name@gmail.com"
                                         />
                                     </div>
                                 </div>
