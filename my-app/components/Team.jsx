@@ -80,13 +80,13 @@ const Team = () => {
                     text="As a team, we move forward with deep trust in our vision, believing that with focus, dedication, and heart, meaningful success is always within reach."
                 />
 
-                <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                <div className="mt-6 grid grid-cols-2 gap-6 sm:grid-cols-2 lg:grid-cols-4">
                     {teamMembers.map((member) => (
                         <div
                             key={member.id}
                             onMouseMove={handleMouseMove}
                             onMouseLeave={handleMouseLeave}
-                            className="team-card group overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-shadow duration-300 will-change-transform hover:shadow-xl"
+                            className="team-card group overflow-hidden rounded-xl md:rounded-2xl border border-gray-100 bg-white shadow-sm transition-shadow duration-300 will-change-transform hover:shadow-xl"
                         >
                             <div className="relative aspect-[4/5] w-full overflow-hidden bg-gray-100">
                                 <Image
@@ -100,10 +100,10 @@ const Team = () => {
                             </div>
 
                             <div className="p-5">
-                                <h3 className="text-lg font-semibold text-gray-900">
+                                <h3 className="text-[16px] md:text-xl font-bold text-gray-900">
                                     {member.name}
                                 </h3>
-                                <p className="mt-1 text-sm font-medium text-brand">
+                                <p className="mt-1 text-[14px] md:text-sm font-medium text-brand">
                                     {member.role}
                                 </p>
                                 <span className="mt-3 block h-0.5 w-8 rounded-full bg-brand transition-all duration-300 group-hover:w-14" />

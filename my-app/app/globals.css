@@ -2,12 +2,14 @@
 
 :root {
   --brand-color: #0F111D;
+  --brand-color-sec: #4D61D6;
   --mid-pure: #EBF2F9;
 }
 
 @theme inline {
   --color-brand: var(--brand-color);
   --color-mpure: var(--mid-pure);
+  --color-brandnd: var(--brand-color-sec);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }

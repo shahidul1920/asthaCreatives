@@ -1,5 +1,6 @@
 import Customers from '@/components/Customers'
 import DemoScreen from '@/components/DemoScreen'
+import Gcta from '@/components/Gcta'
 import HeroSection from '@/components/HeroSection'
 import Portfolio from '@/components/Portfolio'
 import ServicesSection from '@/components/ServicesSection'
@@ -14,6 +15,7 @@ const HomePage = () => {
         <Portfolio />
         <Customers />
         <Team />
+        <Gcta />
 
         {/* <DemoScreen /> */}
     </div>
