@@ -16,6 +16,7 @@ import {
     Code2,
     BarChart3,
 } from 'lucide-react'
+import Image from 'next/image'
 
 if (typeof window !== 'undefined') {
     gsap.registerPlugin(ScrollTrigger)
@@ -68,7 +69,14 @@ const About = () => {
             {/* Panel 1 — Who Are We */}
             <section className="stack-panel sticky top-0 z-10 flex h-screen w-full items-center overflow-hidden bg-brand text-white">
                 <span className="pointer-events-none absolute -right-10 top-1/2 -translate-y-1/2 select-none text-[20rem] font-black leading-none text-white/5 md:text-[28rem] lg:text-[34rem]">
-                    A
+                    {/* A */}
+                    <Image
+                        src="/astha-creatives-logo-1.png"
+                        alt="Astha Creatives Logo"
+                        width={500}
+                        height={500}
+                        className="brightness-0 invert opacity-20"
+                    />
                 </span>
                 <div className="container relative mx-auto px-4">
                     <div className="max-w-2xl">
