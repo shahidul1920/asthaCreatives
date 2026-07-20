@@ -3,6 +3,7 @@ import DemoScreen from '@/components/DemoScreen'
 import HeroSection from '@/components/HeroSection'
 import Portfolio from '@/components/Portfolio'
 import ServicesSection from '@/components/ServicesSection'
+import Team from '@/components/Team'
 import React from 'react'
 
 const HomePage = () => {
@@ -12,6 +13,7 @@ const HomePage = () => {
         <ServicesSection />
         <Portfolio />
         <Customers />
+        <Team />
 
         {/* <DemoScreen /> */}
     </div>
