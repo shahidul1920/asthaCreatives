@@ -4,7 +4,7 @@ import Button from '@/components/Button'
 
 const Gcta = (props) => {
     return (
-        <div className="bg-mpure relative py-20 md:py-28 px-4 md:px-0">
+        <div className="bg-brandnd relative py-20 md:py-28 px-4 md:px-0">
             <section className="container mx-auto flex items-center justify-between gap-4 flex-wrap">
                 <div className="textSec grid gap-3">
                     <h3 className="text-2xl font-bold text-brand sm:text-3xl md:text-4xl capitalize">

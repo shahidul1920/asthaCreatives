@@ -63,7 +63,7 @@ const ServicesSection = () => {
     }, [])
 
     return (
-        <section ref={sectionRef} className="srv w-full py-20 md:py-28">
+        <section ref={sectionRef} className="srv w-full py-20 md:py-28 bg-mpure">
             <div className="m container mx-auto px-4">
                 <div ref={headingRef}>
                     <HeadNtext
