@@ -29,6 +29,13 @@ const testimonials = [
     { id: 7, name: "Tim Clue", image: timClue, review: "Astha Creatives has been a fantastic partner in our marketing efforts. Their team of experts has helped us create compelling content and execute effective campaigns that have driven significant results for our business. We are impressed with their professionalism and the quality of their work." }
 ]
 
+const partners = [
+    { id: 1, name: "Fresh Pizza", image: freshPizza },
+    { id: 4, name: "Cell Repair", image: cellRepair },
+    { id: 2, name: "Oven Fresh", image: ovenFresh },
+    { id: 3, name: "Hasen", image: hasen },
+]
+
 const Customers = () => {
     const [currentIndex, setCurrentIndex] = useState(0)
     const sliderContainer = useRef(null)
@@ -62,12 +69,12 @@ const Customers = () => {
 
     return (
 
-        <div className="bg-mpure relative py-20 overflow-hidden">
+        <div className="bg-mpure relative pt-20 overflow-hidden">
             <div className="container mx-auto px-4">
                 {/* Header Section */}
                 <div className="mb-16 text-center text-gray-900">
                     <HeadNtext
-                        heading="Our Customers"
+                        heading="Our Clients Feedbacks"
                         text="We served these companies with love and care. For that, some of them turned to us again and again. We have the mindset to help you thrive!"
                     />
                 </div>
@@ -151,6 +158,29 @@ const Customers = () => {
 
                 </div>
             </div>
+
+            <div className="bg-brand text-white mt-12 pt-8 pb-10">
+                <div className="container mx-auto pertnersSec">
+                    <HeadNtext heading="partners around the world" text="We are trusted by these companies around the world. From day one, we stay connected, communicate openly,
+and focus on helping your business grow." styleText="text-white" />
+
+                    <div className="flex items-center justify-center gap-4">
+                        {partners.map((partner) => (
+                            <div key={partner.id} className="flex-shrink-0 mx-4">
+                                <Image
+                                    src={partner.image}
+                                    alt={partner.name}
+                                    className="w-32 h-32 object-contain rounded-full"
+                                />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+
+
+
+
         </div>
     )
 
