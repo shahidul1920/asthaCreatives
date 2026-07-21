@@ -15,6 +15,8 @@ import joyBella from "@/images/companies/joy-bella.png";
 import cellRepair from "@/images/companies/cell-repair.png";
 import bretgajda from "@/images/companies/bretgajda.jpeg";
 import timClue from "@/images/companies/tim-clue.jpeg";
+import b2g from "@/images/companies/b2g.png";
+import xeniusoft from "@/images/companies/xeniusoft.png";
 
 // Register GSAP hook
 gsap.registerPlugin(useGSAP);
@@ -76,6 +78,8 @@ const partners = [
   { id: 4, name: "Cell Repair", image: cellRepair },
   { id: 2, name: "Oven Fresh", image: ovenFresh },
   { id: 3, name: "Hasen", image: hasen },
+  { id: 5, name: "B2GSOFT", image: b2g },
+  { id: 6, name: "Xeniusoft", image: xeniusoft },
 ];
 
 const AUTOPLAY_MS = 4000;
@@ -272,7 +276,7 @@ const Customers = () => {
             {partners.map((partner) => (
               <div
                 key={partner.id}
-                className="flex h-24 w-24 shrink-0 items-center justify-center rounded-full bg-white p-4 shadow-md md:h-28 md:w-28"
+                className="flex h-24 w-24 shrink-0 items-center justify-center rounded-full bg-gray-500 p-4 shadow-md md:h-28 md:w-28"
               >
                 <div className="relative h-full w-full">
                   <Image

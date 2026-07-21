@@ -64,7 +64,7 @@ export default function ContactUs() {
       <div className="relative h-[50vh] min-h-[400px] w-full flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/smoke-bg-astha-hero.jpg"
+            src="/smoke-bg-astha-hero.png"
             alt="Dark smoke background"
             fill
             className="object-cover opacity-40 mix-blend-screen"

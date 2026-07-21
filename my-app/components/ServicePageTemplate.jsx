@@ -148,7 +148,7 @@ const ServicePageTemplate = ({ service }) => {
       </section>
 
       {/* Pricing tiers */}
-      <section className="w-full bg-gray-50 pb-16 md:pb-24">
+      <section className="w-full bg-gray-50 pb-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
             {service.tiers.map((tier) => (
