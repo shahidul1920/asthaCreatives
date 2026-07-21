@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --brand-color: #0F111D;
-  --brand-color-sec: #4D61D6;
-  --mid-pure: #EBF2F9;
+  --brand-color: #0f111d;
+  --brand-color-sec: #4d61d6;
+  --mid-pure: #ebf2f9;
 }
 
 @theme inline {
@@ -16,9 +16,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    
-    --brand-color: #0F111D;
-    --foreground: #FFFFFF;
+    --brand-color: #0f111d;
+    --foreground: #ffffff;
   }
 }
-

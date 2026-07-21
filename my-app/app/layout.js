@@ -4,10 +4,10 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  variable: '--font-poppins',
-  display: 'swap',
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-poppins",
+  display: "swap",
 });
 
 export const metadata = {
@@ -17,16 +17,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="en"
-      className={`${poppins.variable} h-full antialiased`}
-    >
+    <html lang="en" className={`${poppins.variable} h-full antialiased`}>
       <body>
         <div className="header">
           <Header />
         </div>
         {children}
-
 
         <footer>
           <Footer />
