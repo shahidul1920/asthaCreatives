@@ -11,7 +11,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Astha Creatives | Creative Design, AI Videos & Web Development Agency",
+  title:
+    "Astha Creatives | Creative Design, AI Videos & Web Development Agency",
   description:
     "Astha Creatives is a premium digital agency specializing in Creative Design, AI Video Creation, Video Editing, Website Development, and Data Analytics. Empower your brand with custom high-performance solutions.",
 };

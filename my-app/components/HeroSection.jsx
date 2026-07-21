@@ -6,7 +6,7 @@ import SubHeading from "@/components/SubHeading";
 import Button from "@/components/Button";
 
 const headingWords =
-  "Creatives. Designs. Marketing. Data. Scale Your Business".split(" ");
+  "Creatives. Designs. Marketing. Development. Data. Scale Your Business".split(" ");
 
 const HeroSection = () => {
   const subheadingRef = useRef(null);

@@ -12,7 +12,11 @@ export default function sitemap() {
       changefreq: "monthly",
       priority: 0.8,
     },
-    { url: "/services/ai-video-creation", changefreq: "monthly", priority: 0.8 },
+    {
+      url: "/services/ai-video-creation",
+      changefreq: "monthly",
+      priority: 0.8,
+    },
     { url: "/services/video-editing", changefreq: "monthly", priority: 0.8 },
     {
       url: "/services/website-development",

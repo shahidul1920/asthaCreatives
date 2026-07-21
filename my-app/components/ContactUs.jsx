@@ -45,10 +45,10 @@ export default function ContactUs() {
     const result = await sendContactEmail(formData);
 
     if (result.success) {
-      setSubmitStatus('success');
+      setSubmitStatus("success");
       e.target.reset();
     } else {
-      setSubmitStatus('error');
+      setSubmitStatus("error");
       console.error(result.error);
     }
 
@@ -176,8 +176,16 @@ export default function ContactUs() {
                   </button>
 
                   {/* 4. Status Messages */}
-                  {submitStatus === 'success' && <span className="text-green-400 text-sm">Message sent!</span>}
-                  {submitStatus === 'error' && <span className="text-red-400 text-sm">Failed to send message.</span>}
+                  {submitStatus === "success" && (
+                    <span className="text-green-400 text-sm">
+                      Message sent!
+                    </span>
+                  )}
+                  {submitStatus === "error" && (
+                    <span className="text-red-400 text-sm">
+                      Failed to send message.
+                    </span>
+                  )}
                 </div>
               </form>
             </div>

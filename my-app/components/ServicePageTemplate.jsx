@@ -111,7 +111,7 @@ const ServicePageTemplate = ({ service }) => {
   return (
     <div ref={rootRef}>
       {/* Hero */}
-      <section className="relative flex h-[70vh] min-h-[520px] w-full items-center overflow-hidden">
+      <section className="relative flex h-[70vh] min-h-[520px] w-full items-center overflow-hidden service-hero-section">
         <Image
           src={service.heroImage}
           alt={service.heroTitle}
