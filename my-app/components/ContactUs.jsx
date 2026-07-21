@@ -40,7 +40,7 @@ export default function ContactUs() {
 
     // Extract all data from inputs with a 'name' attribute
     const formData = new FormData(e.currentTarget);
-    
+
     // Send it to the server action
     const result = await sendContactEmail(formData);
 
@@ -51,7 +51,7 @@ export default function ContactUs() {
       setSubmitStatus('error');
       console.error(result.error);
     }
-    
+
     setIsSubmitting(false);
   };
 
@@ -123,6 +123,16 @@ export default function ContactUs() {
                       placeholder="name@gmail.com"
                     />
                   </div>
+                </div>
+
+                {/* Honeypot field */}
+                <div className="absolute left-[-9999px]" aria-hidden="true">
+                  <input
+                    type="text"
+                    name="company_website_url" // Bots love this, autofill usually ignores it
+                    tabIndex="-1"
+                    autoComplete="off"
+                  />
                 </div>
 
                 <div className="space-y-2">
